@@ -1,10 +1,9 @@
 import Character from '../Character';
   
 test('Creating a character', () => {
-    const character = new Character('Ivan');
+    const character = new Character('Robin');
     const correct = {
-        name: 'Ivan'
+        name: 'Robin'
     };
-
     expect(character).toEqual(correct);
 });
